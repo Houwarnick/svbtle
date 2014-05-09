@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ .container {
+ 	font-family:'proxima nova','Avenir', sans-serif;
+ }
+.navigation {
+	float:left;
+	width:10%;
+	position:fixed;
+}
+.navigation li {
+	font-size: .9375rem;
+	line-height: 1.875rem;
+	color:#acacac;
+	margin-left:1.875rem;
+	margin-right:1.875rem;
+}
+.logo {
+	position: relative;
+	margin-left: 52px;
+	margin-top: 35px;
+	background-color: #000;
+	border-radius:100px;
+	width:42px;
+	height:42px;
+}
+.navbar {
+
+}
+.featuredheader {
+	font-size:1.25rem;
+	color:#ccc;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.main {
+	float:left;
+	width:60%;
+	margin-left: 120px;
+}
+.main a {
+	text-decoration: none;
+	color: black;
+}
+.main a:hover {
+	color:#88ACDB;
+}
+.title {
+	font-size:1.875rem;
+	font-weight:bold;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.articletitle {
+	font-size:1.875rem;
+	line-height: 2rem;
+	font-weight: bold;
+}
+.authorname {
+	font-size:1.0625rem;
+	font-weight: bold;
+	color: #88ACDB;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.rightside {
+	float:left;
+	width:30%;
+}
+.rightside a {
+	color:#545454;
+	text-decoration: none;
+}
+.rightside a:hover {
+	color:#B77CF6;
+}
+.righttitle{
+	font-size: 2.1875rem;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+footer {
+	clear:both;
+}
+p {
+	margin-top:2rem;
+	line-height: 1.5;
+}
+.rightside p {
+	margin-top:20px;
+	color: #797979;
+}
+h3 {
+	font-size: 1.215rem;
+	font-weight: bold;
+}
+h4 {
+	font-size: .875rem;
+	margin-top: 20px;
+}
+.space {
+	margin-top: 15px;
+}
